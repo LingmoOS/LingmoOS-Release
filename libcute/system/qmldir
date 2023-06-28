@@ -1,0 +1,3 @@
+module Cute.System
+
+plugin cutesystem_qmlplugins

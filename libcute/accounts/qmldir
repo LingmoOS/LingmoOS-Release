@@ -1,0 +1,2 @@
+module Cute.Accounts
+plugin cuteaccounts_qmlplugins

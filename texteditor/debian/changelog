@@ -1,0 +1,24 @@
+cute-texteditor (23.02.8) misaka; urgency=medium
+
+  * feat: Graphic prompt for actions open & save as
+
+ -- Floating dream <2422586862@qq.com>  Tue, 14 Feb 2023 21:06:52 +0800
+
+cute-texteditor (0.9.2) misaka; urgency=medium
+
+  * feat: Menu bar; Action open; Command line parser
+
+ -- Tsukuyomi Toki <huangzimocp@126.com>  Wed, 20 Jul 2022 23:40:59 +0800
+
+cute-texteditor (0.9.1) misaka; urgency=medium
+
+  * fix : Unable to build binary package
+  * feat: Close tab prompt when not saved; Simple save as prompt
+
+ -- Tsukuyomi Toki <huangzimocp@126.com>  Mon, 11 Jul 2022 16:09:09 +0800
+
+cute-texteditor (0.9) misaka; urgency=medium
+
+  * Initial Release for Cute.
+
+ -- CuteOS Packaging Team <support@cuteys.com>  Sun, 10 Jul 2022 15:15:15 +0800

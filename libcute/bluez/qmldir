@@ -1,0 +1,4 @@
+module Cute.Bluez
+plugin cutebluez_qmlplugins
+
+DevicesModel 1.0 DevicesModel.qml

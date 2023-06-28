@@ -1,0 +1,23 @@
+cute-daemon (23.02.8) unstable; urgency=high
+
+  * Update to 0.9-1
+
+ -- Floating dream <2422586862@qq.com>  Tue, 14 Feb 2023 21:06:52 +0800
+
+cute-daemon (0.9) unstable; urgency=high
+
+  * Update to 0.9
+
+ -- weilinfox <support@cuteos.com>  Mon, 20 Jun 2022 11:30:14 +0800
+
+cute-daemon (0.8-1) UNRELEASED; urgency=medium
+
+  * Update code structure
+
+ -- weilinfox <support@cuteos.com>  Fri, 10 Jun 2022 15:42:11 +0800
+
+cute-daemon (0.8) UNRELEASED; urgency=medium
+
+  * Initial release CuteOS <support@cuteos.com>
+
+ -- CuteOS <support@cuteos.com>  Sat, 29 Jan 2022 03:25:58 +0800

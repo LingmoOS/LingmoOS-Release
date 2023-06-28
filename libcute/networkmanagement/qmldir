@@ -1,0 +1,3 @@
+module Cute.NetworkManagement
+
+plugin cutenm_qmlplugins

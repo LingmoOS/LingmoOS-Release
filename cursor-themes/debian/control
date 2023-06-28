@@ -1,0 +1,13 @@
+Source: cute-cursor-themes
+Section: kde
+Priority: optional
+Maintainer: Floating dream <cuteos@foxmail.com> 
+Build-Depends:
+Standards-Version: 3.9.6
+Homepage: https://cuteos.cn
+Vcs-Git: https://github.com/CuteOS
+
+Package: cute-cursor-themes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CuteOS Cursor Theme

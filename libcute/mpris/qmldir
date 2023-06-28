@@ -1,0 +1,2 @@
+module Cute.Mpris
+plugin cutempris_qmlplugins

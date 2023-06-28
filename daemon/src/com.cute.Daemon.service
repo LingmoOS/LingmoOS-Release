@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=com.cute.Daemon
+Interface=com.cute.Daemon
+Exec=/usr/bin/cute-daemon
+User=root

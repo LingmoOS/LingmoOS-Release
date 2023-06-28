@@ -1,0 +1,3 @@
+module Cute.Screen
+
+plugin cutescreen_qmlplugins
