@@ -30,12 +30,12 @@ ItemPage {
                 RowLayout {
                     spacing: CuteUI.Units.largeSpacing * 2
 
-                    // IconCheckBox {
-                    //     source: "qrc:/images/dock_straight.svg"
-                    //     text: qsTr("Full")
-                    //     checked: appearance.dockStyle === 1
-                    //     onClicked: appearance.setDockStyle(1)
-                    // }
+                    IconCheckBox {
+                        source: "qrc:/images/dock_straight.svg"
+                        text: qsTr("Full")
+                        checked: appearance.dockStyle === 1
+                        onClicked: appearance.setDockStyle(1)
+                    }
 
                     IconCheckBox {
                         source: "qrc:/images/dock_bottom.svg"

@@ -143,7 +143,6 @@ ItemPage {
             RoundedItem {
                 StandardItem {
                     key: qsTr("System Type")
-                    
                     value: about.architecture
                 }
 

@@ -34,6 +34,7 @@ ColumnLayout {
             color: "#FFFFFF"
             text: rootElement.title
         }
+        
         Image {
             y:20
             anchors.right:  parent.right

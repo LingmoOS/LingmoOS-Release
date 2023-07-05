@@ -174,7 +174,8 @@ Item {
         anchors.fill: parent
         source: parent
         color: "#000000"
-        opacity: backend.dimsWallpaper ? 0.5 : 0.4
+        // opacity: backend.dimsWallpaper ? 0.5 : 0.4
+        opacity: 0.1
         visible: true
     }
 
