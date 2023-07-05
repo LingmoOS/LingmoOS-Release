@@ -16,6 +16,18 @@ Lingmo OS 采取了全新的不同于传统 KDE 的设计，让操作不再繁�
 
 我们为了改善 Linux 用户的体验，内置了[星火软件商店](https://gitee.com/deepin-community-store/spark-store/)，用户可以在商店内下载所需的软件，使安装软件不用每次都使用命令行。
 
+### 如何编译
+
+每个目录下都有README文件，需要根据README内容安装所需的依赖，所以组件的编译命令为：
+```
+sudo mk-build-deps ./debian/control -i -t "apt-get --yes" -r
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
+make
+sudo make install
+```
+
 ### 参考文档
 
 >[LingmoOS参考文档](https://lingmo.org/doc/)
