@@ -39,7 +39,7 @@ before knowing which application is going to be launched next. There can be
 different kinds of boosters optimized for different kinds of
 applications, e.g. Qt or QML.
 
-In the current architecture boosters are implemented as seperate processes,
+In the current architecture boosters are implemented as separate processes,
 using the provided support library. Each booster process waits for launch
 commands.
 
