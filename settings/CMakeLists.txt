@@ -112,6 +112,12 @@ qt5_create_translation(QM_FILES ${TS_FILES})
 add_custom_target(translations DEPENDS ${QM_FILES} SOURCES ${TS_FILES})
 add_dependencies(${PROJECT_NAME} translations)
 
+foreach(_ts_file ${TS_FILES})
+    execute_process(
+        COMMAND ${LUPDATE_EXECUTABLE} -recursive ${CMAKE_SOURCE_DIR} -ts ${_ts_file})
+    execute_process(COMMAND lrelease ${_ts_file})
+endforeach()
+
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 
 install(FILES

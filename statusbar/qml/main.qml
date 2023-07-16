@@ -55,10 +55,10 @@ Item {
     Rectangle {
         id: background
         anchors.fill: parent
-        opacity: 0.6
+        // opacity: 0.6
 
-//        color: CuteUI.Theme.darkMode ? "#4D4D4D" : "#FFFFFF"
-//        opacity: windowHelper.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.7 : 1.0
+       color: CuteUI.Theme.darkMode ? "#4D4D4D" : "#FFFFFF"
+       opacity: windowHelper.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.7 : 1.0
 
 //        Behavior on color {
 //            ColorAnimation {
