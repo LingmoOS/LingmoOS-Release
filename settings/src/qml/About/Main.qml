@@ -6,6 +6,7 @@ import Cute.Settings 1.0
 import "../"
 
 ItemPage {
+    id: control
     headerTitle: qsTr("About LingmoOS")
 
     About {
@@ -207,39 +208,71 @@ ItemPage {
             }
 
             // Button {
-            //     text: qsTr("System Community")
+            //     // text: qsTr("System Community")
             //     flat: true
             //     Layout.alignment: Qt.AlignHCenter
             //     // visible: control.error
-            //     onClicked: {
-            //         Qt.openUrlExternally("https://bbs.swifts.org.cn")
-            //     }
-            //     // text: ""
-            //     // Layout.fillWidth: true
-            //     // // visible: about.isCuteOS
             //     // onClicked: {
-            //     //     process.startDetached("cute-settings", ["-m", "bluetooth"])
+            //     //     Qt.openUrlExternally("https://bbs.swifts.org.cn")
             //     // }
+            //     text: ""
+            //     Layout.fillWidth: true
+            //     // visible: about.isCuteOS
+            //     onClicked: moreInfoDialog.show()
 
-            //     // RowLayout {
-            //     //     anchors.fill: parent
-            //     //     anchors.leftMargin: CuteUI.Units.largeSpacing * 1.5
-            //     //     anchors.rightMargin: CuteUI.Units.largeSpacing * 1.5
+            //     RowLayout {
+            //         anchors.fill: parent
+            //         anchors.leftMargin: CuteUI.Units.largeSpacing * 1.5
+            //         anchors.rightMargin: CuteUI.Units.largeSpacing * 1.5
 
-            //     //     Label {
-            //     //         text: qsTr("Agreement")
-            //     //         font.family: "Ubuntu Light"
-            //     //     }
+            //         Label {
+            //             text: qsTr("Agreement")
+            //             font.family: "Ubuntu Light"
+            //         }
 
-            //     //     Item {
-            //     //         Layout.fillWidth: true
-            //     //     }
+            //         Item {
+            //             Layout.fillWidth: true
+            //         }
 
-            //     //     Label {
-            //     //         text: qsTr("View→")
-            //     //     }
-            //     // }
+            //         Label {
+            //             text: qsTr("View→")
+            //         }
+            //     }
             // }
+
+            StandardButton {
+                Layout.fillWidth: true
+                text: ""
+                // onClicked: timeZoneDialog.visibility = "Maximized"
+                onClicked: infoDialog.show()
+
+                RowLayout {
+                    anchors.fill: parent
+                    anchors.leftMargin: CuteUI.Units.largeSpacing * 1.5
+                    anchors.rightMargin: CuteUI.Units.largeSpacing * 1.5
+
+                    Label {
+                        text: qsTr("Info")
+                    }
+
+                    Item {
+                        Layout.fillWidth: true
+                    }
+
+                    Label {
+                        text: qsTr("View")
+                    }
+                }
+            }
+
+            CuteUI.InfoDialog {
+                id: infoDialog
+                name: qsTr("Lingmo OS")
+                description: qsTr("Developed based on Debian 11.7")
+                version: about.version
+                buildtime: about.updateversion
+                iconSource: "qrc:/images/dark/LingmoOS-64.png"
+            }
 
             Item {
                 height: CuteUI.Units.smallSpacing
