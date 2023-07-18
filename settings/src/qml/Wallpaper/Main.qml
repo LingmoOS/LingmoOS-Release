@@ -234,6 +234,7 @@ ItemPage {
                 model.append({"bgColor": "#2B8ADA"})
                 model.append({"bgColor": "#4DA4ED"})
                 model.append({"bgColor": "#FF5795"})
+                model.append({"bgColor": "#FF8695"})
                 model.append({"bgColor": "#008484"})
                 model.append({"bgColor": "#B7E786"})
                 model.append({"bgColor": "#F2BB73"})
