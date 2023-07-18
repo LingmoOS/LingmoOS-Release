@@ -18,7 +18,7 @@ Lingmo OS 采取了全新的不同于传统 KDE 的设计，让操作不再繁�
 
 ### 如何编译
 
-每个目录下都有README文件，需要根据README内容安装所需的依赖，所以组件的编译命令为：
+每个目录下都有README.md文件，需要根据README内容安装所需的依赖，所以组件的编译命令为：
 ```
 sudo mk-build-deps ./debian/control -i -t "apt-get --yes" -r
 mkdir build
