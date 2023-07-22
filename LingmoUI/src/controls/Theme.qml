@@ -50,11 +50,11 @@ QtObject {
     property real fontSize: CuteUICore.ThemeManager.fontSize
     property string fontFamily: CuteUICore.ThemeManager.fontFamily
 
-    property real smallRadius: 20.0 // 8.0
-    property real mediumRadius: 20.0 // 10.0
-    property real bigRadius: 20.0 // 12.0
-    property real hugeRadius: 20.0 // 14.0
-    property real windowRadius: 20.0
+    property real smallRadius: 8.0 // 8.0
+    property real mediumRadius: 10.0 // 10.0
+    property real bigRadius: 12.0 // 12.0
+    property real hugeRadius: 14.0 // 14.0
+    property real windowRadius: 11.0 // 11.0
 
     property var renderType: Text.QtRendering
 

@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/cuteui/kit">
         <file alias="AboutDialog.qml">controls/AboutDialog.qml</file>
+        <file alias="InfoDialog.qml">controls/InfoDialog.qml</file>
         <file alias="BusyIndicator.qml">controls/BusyIndicator.qml</file>
         <file alias="Icon.qml">controls/Icon.qml</file>
         <file alias="PopupTips.qml">controls/PopupTips.qml</file>
