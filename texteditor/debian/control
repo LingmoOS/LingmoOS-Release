@@ -1,14 +1,14 @@
 Source: cute-texteditor
 Section: devel
 Priority: optional
-Maintainer: CuteOS Packaging Team <2422586862@qq.com>
+Maintainer: LingmoOS Packaging Team <2422586862@qq.com>
 Build-Depends: cmake,
                debhelper (>= 9),
 			   libkf5syntaxhighlighting-dev
-Standards-Version: 4.5.0
-Homepage: https://github.com/CuteOS/texteditor
+Standards-Version: 1.0.0
+Homepage: https://github.com/LingmoOS/texteditor
 
 Package: cute-texteditor
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: CuteOS Texteditor
+Description: LingmoOS Texteditor

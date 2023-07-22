@@ -1,7 +1,7 @@
 Source: cute-screenshot
 Section: devel
 Priority: optional
-Maintainer: CuteOS <cuteos@foxmail.com>
+Maintainer: LingmoOS <cuteos@foxmail.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -10,8 +10,8 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.5.0
-Homepage: https://cuteos.com
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
 
 Package: cute-screenshot
 Architecture: any
@@ -26,4 +26,4 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtquick-dialogs,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CuteOS Screenshot
+Description: LingmoOS Screenshot

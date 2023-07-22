@@ -1,5 +1,5 @@
-cute-statusbar (0.8-1) UNRELEASED; urgency=high
+cute-statusbar (1.0.0.0) UNRELEASED; urgency=high
 
-  * Initial release (CuteOS)  <support@cuteos.com>
+  * Initial release (LingmoOS)  <support@cuteos.com>
 
- -- CuteOS Packaging Team <support@cuteos.com>  Sat, 19 Feb 2022 10:53:42 +0800
+ -- CuteOS Packaging Team <support@cuteos.com>  Wed, 19 Jul 2023 06:05:47 +0800

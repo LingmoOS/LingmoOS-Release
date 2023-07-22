@@ -1,7 +1,7 @@
 Source: cute-statusbar
 Section: devel
 Priority: optional
-Maintainer: CuteOS <support@cuteos.com>
+Maintainer: LingmoOS <support@cuteos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -13,8 +13,8 @@ Build-Depends: cmake,
                qttools5-dev,
                qttools5-dev-tools,
                pkg-config
-Standards-Version: 4.5.0
-Homepage: https://cuteos.com
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
 
 Package: cute-statusbar
 Architecture: any
@@ -28,4 +28,4 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtquick-shapes,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CuteOS Statusbar
+Description: LingmoOS Statusbar

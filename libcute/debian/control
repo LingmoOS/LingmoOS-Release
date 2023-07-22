@@ -1,7 +1,7 @@
 Source: libcute
 Section: devel
 Priority: optional
-Maintainer: CuteOS <support@cuteos.com>
+Maintainer: LingmoOS <support@cuteos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -19,12 +19,12 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.5.0
-Homepage: https://cuteos.com
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
 
 Package: libcute
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libkf5screen-bin
-Description: CuteOS Library
+Description: LingmoOS Library

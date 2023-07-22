@@ -1,7 +1,7 @@
 Source: cute-sddm-theme
 Section: devel
 Priority: optional
-Maintainer: CuteOS <cuteos@foxmail.com>
+Maintainer: LingmoOS <cuteos@foxmail.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -10,8 +10,8 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.5.0
-Homepage: https://github.com/cuteos/calculator
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
 
 Package: cute-sddm-theme
 Architecture: any
@@ -27,4 +27,4 @@ Depends: qml-module-qtquick-controls2,
          sddm,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CuteOS Calculator
+Description: LingmoOS Calculator

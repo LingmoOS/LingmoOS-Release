@@ -1,7 +1,7 @@
 Source: cute-debinstaller
 Section: devel
 Priority: optional
-Maintainer: CuteOS <support@cuteos.com>
+Maintainer: LingmoOS <support@cuteos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -12,8 +12,8 @@ Build-Depends: cmake,
                qttools5-dev-tools,
                libqapt-dev,
                libapt-pkg-dev
-Standards-Version: 4.5.0
-Homepage: https://cuteos.com/
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org/
 
 Package: cute-debinstaller
 Architecture: any
@@ -28,4 +28,4 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtquick-dialogs,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CuteOS Deb Installer
+Description: LingmoOS Deb Installer

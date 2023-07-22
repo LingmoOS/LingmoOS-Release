@@ -34,8 +34,8 @@ Item {
         anchors.fill: parent
         radius: root.compositing && Settings.style === 0 ? windowRadius : 0
         color: CuteUI.Theme.darkMode ? "#666666" : "#E6E6E6"
-        // opacity: root.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.5 : 0.9
-        opacity: 0.8
+        opacity: root.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.5 : 0.9
+        // opacity: 0.8
         border.width: 1 / CuteUI.Units.devicePixelRatio
         border.pixelAligned: CuteUI.Units.devicePixelRatio > 1 ? false : true
         border.color: borderColor

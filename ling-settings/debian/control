@@ -1,7 +1,7 @@
 Source: ling-settings
 Section: devel
 Priority: optional
-Maintainer: CuteOS <cuteos@foxmail.com>
+Maintainer: LingmoOS <cuteos@foxmail.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -22,10 +22,10 @@ Build-Depends: cmake,
                qttools5-dev,
                qttools5-dev-tools,
                libqapt-dev
-Standards-Version: 8.62.2.235
-Homepage: https://swifts.org.cn/openswift/
+Standards-Version: 1.0.0.0
+Homepage: https://lingmo.org
 
-Package: cute-settings
+Package: ling-settings
 Architecture: any
 Depends: qml-module-qtquick-controls2,
          qml-module-qtquick2,
@@ -45,4 +45,4 @@ Description: OpenSwift Settings
 Package: ling-settings-dev
 Architecture: any
 Depends: ling-settings (= ${binary:Version}), ${misc:Depends}, ${shlib:Depends}, ${dist:Depends}
-Description: OpenSwift Settings Dev
+Description: LingmoOS Settings Dev

@@ -1,7 +1,7 @@
 Source: cute-screenlocker
 Section: devel
 Priority: optional
-Maintainer: CuteOS <support@cuteos.com>
+Maintainer: LingmoOS <support@cuteos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -13,8 +13,8 @@ Build-Depends: cmake,
                libqt5x11extras5-dev,
                libpam0g-dev,
                libx11-dev
-Standards-Version: 4.5.0
-Homepage: https://cuteos.com
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
 
 Package: cute-screenlocker
 Architecture: any
@@ -29,4 +29,4 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtquick-dialogs,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CuteOS Screen Locker
+Description: LingmoOS Screen Locker

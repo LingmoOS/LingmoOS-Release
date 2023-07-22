@@ -1,7 +1,7 @@
 Source: cute-desktop
 Section: devel
 Priority: optional
-Maintainer: CuteOS <cuteos@foxmail.com>
+Maintainer: LingmoSO <cuteos@foxmail.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -15,8 +15,8 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 8.62.2.235
-Homepage: https://swifts.org.cn/openswift
+Standards-Version: 1.0.0.0
+Homepage: https://lingmo.org/
 
 Package: cute-desktop
 Architecture: any
@@ -33,4 +33,4 @@ Depends: qml-module-qtquick-controls2,
          libcute,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: OpenSwift Desktop
+Description: LingmoOS Desktop

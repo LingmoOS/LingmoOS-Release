@@ -1,7 +1,7 @@
 Source: cute-terminal
 Section: devel
 Priority: optional
-Maintainer: CuteOS <2422586862@qq.com>
+Maintainer: LingmoOS <2422586862@qq.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -10,8 +10,8 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.5.0
-Homepage: https://cuteos.cn
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
 
 Package: cute-terminal
 Architecture: any
@@ -27,4 +27,4 @@ Depends: qml-module-qtquick-controls2,
          libcute,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CuteOS Terminal
+Description: LingmoOS Terminal

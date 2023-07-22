@@ -1,7 +1,7 @@
 Source: cute-launcher
 Section: devel
 Priority: optional
-Maintainer: CuteOS <support@cuteos.com>
+Maintainer: LingmoOS <support@cuteos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -11,8 +11,8 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.5.0
-Homepage: https://cuteos.com
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
 
 Package: cute-launcher
 Architecture: any
@@ -26,4 +26,4 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtquick-shapes,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CuteOS Launcher
+Description: LingmoOS Launcher

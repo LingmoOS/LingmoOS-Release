@@ -1,3 +1,9 @@
+cute-debinstaller (1.0.0.0) unstable; urgency=medium
+
+  * Fix some issues
+
+ -- Floating dream <2422586862@qq.com>  Wed, 19 Jul 2023 06:05:47 +0800
+
 cute-debinstaller (23.02.8) unstable; urgency=medium
 
   * Fix some issues

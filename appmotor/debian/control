@@ -1,7 +1,7 @@
 Source: appmotor
 Section: devel
 Priority: optional
-Maintainer: CuteOS <2422586862@qq.com>
+Maintainer: LingmoOS <2422586862@qq.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -12,8 +12,8 @@ Build-Depends: cmake,
                libsystemd-dev,
                libcap-dev,
                libdbus-1-dev
-Standards-Version: 4.5.0
-Homepage: https://swifts.org.cn
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
 
 Package: appmotor
 Architecture: any

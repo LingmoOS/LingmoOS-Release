@@ -272,6 +272,17 @@ ItemPage {
                 version: about.version
                 buildtime: about.updateversion
                 iconSource: "qrc:/images/dark/LingmoOS-64.png"
+                RowLayout {
+                    spacing: CuteUI.Units.largeSpacing
+                    Item {
+                        Layout.fillWidth: true
+                    }
+                    Button {
+                        text: qsTr("Exit")
+                        onClicked: control.close()
+                        flat: true
+                    }
+                }
             }
 
             Item {

@@ -3,11 +3,11 @@ Section: kde
 Priority: optional
 Maintainer: Floating dream <cuteos@foxmail.com> 
 Build-Depends:
-Standards-Version: 3.9.6
-Homepage: https://cuteos.cn
-Vcs-Git: https://github.com/CuteOS
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org
+Vcs-Git: https://github.com/LingmoOS
 
 Package: cute-cursor-themes
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: CuteOS Cursor Theme
+Description: LingmoOS Cursor Theme

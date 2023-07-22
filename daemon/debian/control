@@ -1,7 +1,7 @@
 Source: cute-daemon
 Section: devel
 Priority: optional
-Maintainer: CuteOS <support@cuteos.com>
+Maintainer: LingmoOS <support@cuteos.com>
 Build-Depends: 
 		cmake,
 		libqapt-dev,
@@ -11,8 +11,8 @@ Build-Depends:
 		qtquickcontrols2-5-dev,
 		libkf5windowsystem-dev,
 		debhelper (>= 9)
-Standards-Version: 4.6.0
-Homepage: http://cuteos.com
+Standards-Version: 1.0.0.0
+Homepage: https://lingmo.org
 Rules-Requires-Root: no
 
 Package: cute-daemon
@@ -28,4 +28,4 @@ Depends: qml-module-qtquick-controls2,
          python3-pyinotify,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CuteOS Daemon.
+Description: LingmoOS Daemon.
