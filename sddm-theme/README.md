@@ -1,4 +1,5 @@
-# SDDM theme of CuteOS
+# SDDM theme of LingmoOS
+This repository is an SDDM theme repository for LingmoOS, which contains SDDM themes
 
 ![screenshot](screenshot.png)
 
