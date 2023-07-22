@@ -93,6 +93,18 @@ QString About::desktopversion()
     return settings.value("Version").toString();
 }
 
+QString About::buildtime()
+{
+    QSettings settings("/etc/build/build",QSettings::IniFormat);
+    return settings.value("time").toString();
+}
+
+QString About::buildversion()
+{
+    QSettings settings("/etc/build/build",QSettings::IniFormat);
+    return settings.value("version").toString();
+}
+
 QString About::uiversion()
 {
     QSettings settings("/etc/LingmoUI/version",QSettings::IniFormat);

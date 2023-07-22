@@ -252,7 +252,7 @@ ItemPage {
                     anchors.rightMargin: CuteUI.Units.largeSpacing * 1.5
 
                     Label {
-                        text: qsTr("Info")
+                        text: qsTr("more Info")
                     }
 
                     Item {
@@ -260,7 +260,7 @@ ItemPage {
                     }
 
                     Label {
-                        text: qsTr("View")
+                        text: qsTr("→")
                     }
                 }
             }
@@ -268,21 +268,20 @@ ItemPage {
             CuteUI.InfoDialog {
                 id: infoDialog
                 name: qsTr("Lingmo OS")
-                description: qsTr("Developed based on Debian 11.7")
                 version: about.version
-                buildtime: about.updateversion
+                description: qsTr("Built on Debian 12")
+                ver1: qsTr("OpenLingmo Server 1.0.2")
+                ver2: about.buildversion
+                ver3: qsTr("Pro_Beta")
+                kernel: about.kernelVersion
+                buildtime: about.buildtime
                 iconSource: "qrc:/images/dark/LingmoOS-64.png"
-                RowLayout {
-                    spacing: CuteUI.Units.largeSpacing
-                    Item {
-                        Layout.fillWidth: true
-                    }
-                    Button {
-                        text: qsTr("Exit")
-                        onClicked: control.close()
-                        flat: true
-                    }
-                }
+                // RowLayout {
+                //     spacing: CuteUI.Units.largeSpacing
+                //     Item {
+                //         Layout.fillWidth: true
+                //     }
+                // }
             }
 
             Item {

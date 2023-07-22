@@ -14,6 +14,8 @@ class About : public QObject
     Q_PROPERTY(QString openCuteversion READ openCuteversion CONSTANT)
     Q_PROPERTY(QString debianversion READ debianversion CONSTANT)
     Q_PROPERTY(QString desktopversion READ desktopversion CONSTANT)
+    Q_PROPERTY(QString buildtime READ buildtime CONSTANT)
+    Q_PROPERTY(QString buildversion READ buildversion CONSTANT)
     Q_PROPERTY(QString uiversion READ uiversion CONSTANT)
     Q_PROPERTY(QString updateversion READ updateversion CONSTANT)
     Q_PROPERTY(QString osName READ osName CONSTANT)
@@ -35,6 +37,8 @@ public:
     QString openCuteversion();
     QString debianversion();
     QString desktopversion();
+    QString buildtime();
+    QString buildversion();
     QString uiversion();
     QString updateversion();
 
