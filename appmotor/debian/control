@@ -18,4 +18,4 @@ Homepage: https://lingmo.org
 Package: appmotor
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: CuteOS Appmotor
+Description: LingmoOS Appmotor

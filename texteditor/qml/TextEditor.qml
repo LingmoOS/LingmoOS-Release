@@ -51,36 +51,36 @@ Item {
         id: appMenu
 
         Menu {
-            title: qsTr("文件")
+            title: qsTr("File")
 
             MenuItem {
-                text: qsTr("新建")
+                text: qsTr("New")
                 onTriggered: root.addTab()
             }
 
             MenuSeparator {}
 
             MenuItem {
-                text: qsTr("打开...")
+                text: qsTr("Open...")
                 onTriggered: root.open()
             }
 
             MenuSeparator {}
 
             MenuItem {
-                text: qsTr("保存")
+                text: qsTr("Save")
                 onTriggered: control.save()
                 enabled: document.modified
             }
             MenuItem {
-                text: qsTr("另存为...")
+                text: qsTr("Save as...")
                 onTriggered: control.saveas()
             }
 
             MenuSeparator {}
 
             MenuItem {
-                text: qsTr("退出")
+                text: qsTr("Quit")
                 onTriggered: {
                     if (root.closeAll())
                         Qt.quit()
@@ -89,27 +89,27 @@ Item {
         }
 
         Menu {
-            title: qsTr("编辑")
+            title: qsTr("Edit")
 
             MenuItem {
-                text: qsTr("全选")
+                text: qsTr("Select All")
                 onTriggered: body.selectAll()
             }
 
             MenuSeparator {}
 
             MenuItem {
-                text: qsTr("剪切")
+                text: qsTr("Cut")
                 onTriggered: body.cut()
                 enabled: !(body.selectedText === "")
             }
             MenuItem {
-                text: qsTr("复制")
+                text: qsTr("Copy")
                 onTriggered: body.copy()
                 enabled: !(body.selectedText === "")
             }
             MenuItem {
-                text: qsTr("粘贴")
+                text: qsTr("Paste")
                 onTriggered: body.paste()
                 enabled: body.canPaste
             }
@@ -117,22 +117,22 @@ Item {
             MenuSeparator {}
 
             MenuItem {
-                text: qsTr("打开")
+                text: qsTr("Undo")
                 onTriggered: body.undo()
                 enabled: body.canUndo
             }
             MenuItem {
-                text: qsTr("撤销")
+                text: qsTr("Redo")
                 onTriggered: body.redo()
                 enabled: body.canRedo
             }
         }
 
         Menu {
-            title: qsTr("帮助")
+            title: qsTr("Help")
 
             MenuItem {
-                text: qsTr("关于LingmoOS文本编辑器")
+                text: qsTr("About Lingmo OS Text editor")
                 onTriggered: _aboutDialog.show()
             }
         }
@@ -140,8 +140,8 @@ Item {
 
     CuteUI.AboutDialog {
         id: _aboutDialog
-        name: qsTr("LingmoOS文本编辑器")
-        description: qsTr("专门为LingmoOS设计的文本编辑器。\n版本：0.9_beta")
+        name: qsTr("Lingmo OS Text Editor")
+        description: qsTr("A text editor specifically designed for Lingmo OS.")
         iconSource: "image://icontheme/cute-texteditor"
     }
 
@@ -346,9 +346,9 @@ Item {
 
     FileDialog {
         id: fileSaveAsDialog
-        title: qsTr("另存为...")
+        title: qsTr("Save as...")
         folder: shortcuts.home
-        nameFilters: [ qsTr("全部类型 (*)") ]
+        nameFilters: [ qsTr("All files (*)") ]
 
         selectExisting: false
         selectFolder: false

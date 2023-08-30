@@ -11,6 +11,7 @@
         <file>images/sensors-voltage-symbolic.svg</file>
         <file>qml/StandardItem.qml</file>
         <file>images/video.mp4</file>
+        <file>images/logo-rad.png</file>
         <file>images/dark/LingmoOS-500.png</file>
         <file>images/dark/LingmoOS-64.png</file>
         <file>images/light/LingmoOS-500.png</file>
@@ -45,7 +46,6 @@
         <file>qml/Hideable.qml</file>
         <file>qml/BluetoothPage.qml</file>
         <file>images/dock_top.svg</file>
-        
         <file>images/dock_right.svg</file>
         <file>images/rot90.svg</file>
         <file>images/rot180.svg</file>
@@ -88,8 +88,6 @@
         <file>images/light/checked.svg</file>
         <file>images/dark/checked.svg</file>
         <file>qml/About/Main.qml</file>
-        <file>qml/About/FontGrade.qml</file>
-        <file>qml/About/MoreInfoDialog.qml</file>
         <file>qml/User/Main.qml</file>
         <file>qml/Appearance/Main.qml</file>
         <file>qml/Display/Main.qml</file>
@@ -123,7 +121,6 @@
         <file>images/light/world.svg</file>
         <file>images/dark/world.svg</file>
         <file>images/sidebar/dark/datetime.svg</file>
-        <file>qml/Dev/Main.qml</file>
         <file>qml/Touchpad/Main.qml</file>
         <file>images/sidebar/dark/touchpad.svg</file>
         <file>images/dark/logo.png</file>
@@ -137,7 +134,6 @@
         <file>images/sidebar/dark/proxy.svg</file>
         <file>qml/Sound/Main.qml</file>
         <file>qml/Accessibility/Main.qml</file>
-        <file>qml/Agreement/Main.qml</file>
         <file>images/sidebar/dark/sound.svg</file>
         <file>images/light/audio-volume-high-symbolic.svg</file>
         <file>images/light/audio-volume-low-symbolic.svg</file>

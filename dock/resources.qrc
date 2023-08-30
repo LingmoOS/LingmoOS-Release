@@ -5,6 +5,7 @@
         <file>qml/AppItem.qml</file>
         <file>images/launchpad.svg</file>
         <file>images/rocket.svg</file>
+        <file>images/rocket.png</file>
         <file>images/launcher.svg</file>
     </qresource>
 </RCC>

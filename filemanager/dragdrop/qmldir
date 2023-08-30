@@ -1,0 +1,3 @@
+module Cute.DragDrop
+
+plugin cutedragdrop_qmlplugins

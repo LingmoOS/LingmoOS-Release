@@ -2,7 +2,7 @@
 > [LingmoOS官网](https://lingmo.org/)
 
 ### 介绍
-![LingmoOS](desktop/4D93B1B41FFB205179E43DEF89998E6D.png)
+![LingmoOS](desktop/screenshots/screenshot.png)
 Lingmo GNU/Linux（Lingmo OS）是一个以桌面环境为主的Linux操作系统，它基于开源Linux内核开发，适配amd64架构。 它拥有美观的桌面环境、包含适配该桌面环境的软件、统一的UI风格。Lingmo GNU/Linux的目标 是让用户在低性能硬件上拥有华丽且实用的桌面环境以及流畅的体验。
 ### 轻量化，流畅体验
 
@@ -18,7 +18,7 @@ Lingmo OS 采取了全新的不同于传统 KDE 的设计，让操作不再繁�
 
 ### 如何编译
 
-每个目录下都有README.md文件，需要根据README内容安装所需的依赖，所以组件的编译命令为：
+每个目录下都有README.md文件，需要根据README内容安装所需的依赖，所有组件的编译命令为：
 ```
 sudo mk-build-deps ./debian/control -i -t "apt-get --yes" -r
 mkdir build
@@ -34,8 +34,12 @@ sudo make install
 
 ### 关于此存储库
 
-此存储库为Lingmo DE的核心代码库
+此存储库为Lingmo DE的核心代码库，每发布系统新版本时，此存储库将推送代码更新。
 
-### 开发
+### 加入开发
 
 由于LingmoOS的开发者很少，所以我们也希望更多人加入LingmoOS项目。
+
+### 协议
+
+此存储库使用GPLv3.0协议

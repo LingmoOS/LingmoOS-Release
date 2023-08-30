@@ -75,7 +75,7 @@ CuteUI.Window {
         }
     }
 
-    function addPage(title,name,page,iconSource,iconColor,category) {
+    function addPage(title,name,page,iconSource,category) {
        sideBar.model.append(
         {
             "title": title,

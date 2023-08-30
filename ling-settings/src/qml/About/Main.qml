@@ -33,14 +33,6 @@ ItemPage {
                 source: CuteUI.Theme.darkMode ? "qrc:/images/dark/LingmoOS-500.png" : "qrc:/images/light/LingmoOS-500.png"
             }
 
-            // Item {
-            //     height: CuteUI.Units.smallSpacing
-            // }
-            
-            // Item {
-            //     height: CuteUI.Units.smallSpacing
-            // }
-
             // Label {
             //     Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
             //     // text: qsTr("SwiftOS")
@@ -82,7 +74,7 @@ ItemPage {
 
                 StandardItem {
                     key: qsTr("OpenLingmo Version")
-                    value: about.openCuteversion
+                    value: about.OpenLingmoVersion
                 }
             }
 
@@ -92,20 +84,7 @@ ItemPage {
 
             RoundedItem {
                 StandardItem {
-                    key: qsTr("Debian Version")
-                    
-                    value: about.debianversion
-                }
-            }
-
-                Item {
-                height: CuteUI.Units.smallSpacing
-            }
-
-            RoundedItem {
-                StandardItem {
-                    key: qsTr("Desktop Version")
-                    
+                    key: qsTr("Lingmo Desktop Version")
                     value: about.desktopversion
                 }
 
@@ -132,12 +111,11 @@ ItemPage {
 
                 StandardItem {
                     key: qsTr("Update Time")
-                    
                     value: about.updateversion
                 }
             }
 
-                Item {
+            Item {
                 height: CuteUI.Units.smallSpacing
             }
 
@@ -157,7 +135,6 @@ ItemPage {
 
                 StandardItem {
                     key: qsTr("Kernel Version")
-                    
                     value: about.kernelVersion
                 }
 
@@ -171,7 +148,6 @@ ItemPage {
 
                 StandardItem {
                     key: qsTr("Processor")
-                    
                     value: about.cpuInfo
                 }
 
@@ -185,7 +161,6 @@ ItemPage {
 
                 StandardItem {
                     key: qsTr("RAM")
-                    
                     value: about.memorySize
                 }
 
@@ -239,50 +214,60 @@ ItemPage {
             //         }
             //     }
             // }
-
             StandardButton {
                 Layout.fillWidth: true
-                text: ""
-                // onClicked: timeZoneDialog.visibility = "Maximized"
-                onClicked: infoDialog.show()
-
-                RowLayout {
-                    anchors.fill: parent
-                    anchors.leftMargin: CuteUI.Units.largeSpacing * 1.5
-                    anchors.rightMargin: CuteUI.Units.largeSpacing * 1.5
-
-                    Label {
-                        text: qsTr("more Info")
-                    }
-
-                    Item {
-                        Layout.fillWidth: true
-                    }
-
-                    Label {
-                        text: qsTr("→")
-                    }
+                // visible: about.isCutefishOS
+                text: qsTr("Software Update")
+                onClicked: {
+                    about.openUpdator()
                 }
             }
 
-            CuteUI.InfoDialog {
-                id: infoDialog
-                name: qsTr("Lingmo OS")
-                version: about.version
-                description: qsTr("Built on Debian 12")
-                ver1: qsTr("OpenLingmo Server 1.0.2")
-                ver2: about.buildversion
-                ver3: qsTr("Pro_Beta")
-                kernel: about.kernelVersion
-                buildtime: about.buildtime
-                iconSource: "qrc:/images/dark/LingmoOS-64.png"
-                // RowLayout {
-                //     spacing: CuteUI.Units.largeSpacing
-                //     Item {
-                //         Layout.fillWidth: true
-                //     }
-                // }
-            }
+            // StandardButton {
+            //     Layout.fillWidth: true
+            //     text: ""
+            //     // onClicked: timeZoneDialog.visibility = "Maximized"
+            //     onClicked: {
+            //         about.openUpdator()
+            //     }
+
+            //     RowLayout {
+            //         anchors.fill: parent
+            //         anchors.leftMargin: CuteUI.Units.largeSpacing * 1.5
+            //         anchors.rightMargin: CuteUI.Units.largeSpacing * 1.5
+
+            //         Label {
+            //             text: qsTr("System Update")
+            //         }
+
+            //         Item {
+            //             Layout.fillWidth: true
+            //         }
+
+            //         Label {
+            //             text: qsTr("→")
+            //         }
+            //     }
+            // }
+
+            // CuteUI.InfoDialog {
+            //     id: infoDialog
+            //     name: qsTr("Lingmo OS")
+            //     version: about.version
+            //     description: qsTr("Built on Debian 12")
+            //     ver1: qsTr("OpenLingmo Server 1.0.2")
+            //     ver2: about.buildversion
+            //     ver3: qsTr("Pro_Beta")
+            //     kernel: about.kernelVersion
+            //     buildtime: about.buildtime
+            //     iconSource: "qrc:/images/dark/LingmoOS-64.png"
+            //     // RowLayout {
+            //     //     spacing: CuteUI.Units.largeSpacing
+            //     //     Item {
+            //     //         Layout.fillWidth: true
+            //     //     }
+            //     // }
+            // }
 
             Item {
                 height: CuteUI.Units.smallSpacing

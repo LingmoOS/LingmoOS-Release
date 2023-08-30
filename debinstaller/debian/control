@@ -1,7 +1,7 @@
 Source: cute-debinstaller
 Section: devel
 Priority: optional
-Maintainer: LingmoOS <support@cuteos.com>
+Maintainer: LingmoOS <cuteos@foxmail.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,

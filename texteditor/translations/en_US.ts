@@ -5,8 +5,8 @@
     <name>main</name>
     <message>
         <location filename="../qml/main.qml" line="20"/>
-        <source>Text Editor</source>
-        <translation>CuteOS Text Editor</translation>
+        <source>Lingmo OS Text Editor</source>
+        <translation>Lingmo OS Text Editor</translation>
     </message>
     <message>
         <location filename="../qml/main.qml" line="30"/>
@@ -144,18 +144,18 @@
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="135"/>
-        <source>About CuteOS Text editor</source>
-        <translation>About CuteOS Text Editor</translation>
+        <source>About Lingmo OS Text editor</source>
+        <translation>About Lingmo OS Text Editor</translation>
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="143"/>
-        <source>Text Editor</source>
-        <translation>CuteOS Text Editor</translation>
+        <source>Lingmo OS Text Editor</source>
+        <translation>Lingmo OS Text Editor</translation>
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="144"/>
-        <source>A text editor specifically designed for CuteOS.</source>
-        <translation>A text editor specifically designed for CuteOS.</translation>
+        <source>A text editor specifically designed for Lingmo OS.</source>
+        <translation>A text editor specifically designed for Lingmo OS.</translation>
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="349"/>

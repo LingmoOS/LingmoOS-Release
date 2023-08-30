@@ -53,84 +53,64 @@
 <context>
     <name>Main</name>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="9"/>
+        <location filename="../src/qml/About/Main.qml" line="10"/>
         <source>About LingmoOS</source>
         <translation>关于灵墨操作系统</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="67"/>
+        <location filename="../src/qml/About/Main.qml" line="71"/>
         <source>LingmoOS Version</source>
         <translation>灵墨操作系统版本</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="73"/>
-        <source>OpenLingmo Version</source>
-        <translation>OpenLingmo 版本</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/About/Main.qml" line="78"/>
-        <source>Debian Version</source>
-        <translation>Debian版本</translation>
-    </message>
-    <message>
         <location filename="../src/qml/About/Main.qml" line="84"/>
-        <source>Desktop Version</source>
-        <translation>桌面环境</translation>
+        <source>OpenLingmo Version</source>
+        <translation>OpenLingmo服务版本</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="90"/>
+        <location filename="../src/qml/About/Main.qml" line="106"/>
+        <source>Lingmo Desktop Version</source>
+        <translation>灵墨桌面环境版本</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/About/Main.qml" line="119"/>
+        <source>UI Version</source>
+        <translation>UI界面版本</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/About/Main.qml" line="132"/>
+        <source>Update Time</source>
+        <translation>更新</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/About/Main.qml" line="143"/>
         <source>System Type</source>
         <translation>系统类型</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="96"/>
+        <location filename="../src/qml/About/Main.qml" line="156"/>
         <source>Kernel Version</source>
         <translation>内核版本</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="102"/>
+        <location filename="../src/qml/About/Main.qml" line="169"/>
         <source>Processor</source>
         <translation>处理器</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="108"/>
+        <location filename="../src/qml/About/Main.qml" line="182"/>
         <source>RAM</source>
         <translation>内存大小</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="114"/>
+        <location filename="../src/qml/About/Main.qml" line="195"/>
         <source>Internal Storage</source>
         <translation>内部存储</translation>
     </message>
     <message>
-        <location filename="../src/qml/About/Main.qml" line="125"/>
-        <source>System Community</source>
-        <translation>系统社区</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/Dev/Main.qml" line="10"/>
-        <source>Dev</source>
-        <translation>开发测试内容</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/Dev/Main.qml" line="38"/>
-        <source>Update Log</source>
-        <translation>更新日志</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/Dev/Main.qml" line="48"/>
-        <source>Update Push</source>
-        <translation>更新推送</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/Dev/Main.qml" line="58"/>
-        <source>Contributor List</source>
-        <translation>贡献者名单</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/Dev/Main.qml" line="71"/>
-        <source>Cute software updates available</source>
-        <translation>可用的Cute软件更新</translation>
+        <location filename="../src/qml/About/Main.qml" line="239"/>
+        <source>Software Update</source>
+        <translation>软件更新</translation>
     </message>
     <message>
         <location filename="../src/digitalwellbeing.cpp" line="23"/>
@@ -1051,7 +1031,9 @@
     <message>
         <location filename="../src/qml/SideBar.qml" line="60"/>
         <location filename="../src/qml/SideBar.qml" line="69"/>
+        <location filename="../src/qml/SideBar.qml" line="78"/>
         <location filename="../src/qml/SideBar.qml" line="87"/>
+        <location filename="../src/qml/SideBar.qml" line="96"/>
         <location filename="../src/qml/SideBar.qml" line="105"/>
         <source>Network and connection</source>
         <translation>网络与连接</translation>
@@ -1071,7 +1053,6 @@
         <location filename="../src/qml/SideBar.qml" line="123"/>
         <location filename="../src/qml/SideBar.qml" line="132"/>
         <location filename="../src/qml/SideBar.qml" line="141"/>
-        <location filename="../src/qml/SideBar.qml" line="150"/>
         <source>Display and appearance</source>
         <translation>显示与外观</translation>
     </message>
@@ -1081,27 +1062,22 @@
         <translation>外观</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="181"/>
+        <location filename="../src/qml/SideBar.qml" line="172"/>
         <source>Mouse</source>
         <translation>鼠标</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="127"/>
-        <source>Fonts</source>
-        <translation>字体</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/SideBar.qml" line="145"/>
+        <location filename="../src/qml/SideBar.qml" line="136"/>
         <source>Dock</source>
         <translation>程序坞</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="154"/>
+        <location filename="../src/qml/SideBar.qml" line="145"/>
         <source>User</source>
         <translation>用户</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="136"/>
+        <location filename="../src/qml/SideBar.qml" line="127"/>
         <source>Background</source>
         <translation>背景</translation>
     </message>
@@ -1117,20 +1093,17 @@
     </message>
     <message>
         <location filename="../src/qml/SideBar.qml" line="208"/>
-        <source>Digital Wellbeing</source>
-        <translation>数字健康</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/SideBar.qml" line="217"/>
         <source>Accessibility</source>
         <translation>辅助功能</translation>
     </message>
     <message>
+        <location filename="../src/qml/SideBar.qml" line="150"/>
         <location filename="../src/qml/SideBar.qml" line="159"/>
         <location filename="../src/qml/SideBar.qml" line="168"/>
         <location filename="../src/qml/SideBar.qml" line="177"/>
         <location filename="../src/qml/SideBar.qml" line="186"/>
         <location filename="../src/qml/SideBar.qml" line="195"/>
+        <location filename="../src/qml/SideBar.qml" line="204"/>
         <location filename="../src/qml/SideBar.qml" line="213"/>
         <location filename="../src/qml/SideBar.qml" line="222"/>
         <location filename="../src/qml/SideBar.qml" line="231"/>
@@ -1141,22 +1114,22 @@
         <translation>系统</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="163"/>
+        <location filename="../src/qml/SideBar.qml" line="154"/>
         <source>Notifications</source>
         <translation>通知</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="172"/>
+        <location filename="../src/qml/SideBar.qml" line="163"/>
         <source>Sound</source>
         <translation>声音</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="190"/>
+        <location filename="../src/qml/SideBar.qml" line="181"/>
         <source>Touchpad</source>
         <translation>触摸板</translation>
     </message>
     <message>
-        <location filename="../src/qml/SideBar.qml" line="208"/>
+        <location filename="../src/qml/SideBar.qml" line="199"/>
         <source>Date &amp; Time</source>
         <translation>日期和时间</translation>
     </message>
@@ -1182,11 +1155,6 @@
     </message>
     <message>
         <location filename="../src/qml/SideBar.qml" line="253"/>
-        <source>Update</source>
-        <translation>开发测试</translation>
-    </message>
-    <message>
-        <location filename="../src/qml/SideBar.qml" line="262"/>
         <source>About LingmoOS</source>
         <translation>关于灵墨操作系统</translation>
     </message>

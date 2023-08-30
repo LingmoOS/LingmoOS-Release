@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 CuteOS Team.
+ * Copyright (C) 2023 Lingmo OS Team.
  */
 
 import QtQuick 2.12
@@ -37,20 +37,20 @@ CuteUI.Window {
         anchors.margins: CuteUI.Units.largeSpacing
 
         Label {
-            text: qsTr("文档未保存，您确定要关闭它吗？")
+            text: qsTr("The document has not been saved. Are you sure you want to close it?")
         }
 
         RowLayout {
             spacing: CuteUI.Units.largeSpacing
 
             Button {
-                text: qsTr("取消")
+                text: qsTr("Cancel")
                 Layout.fillWidth: true
                 onClicked: control.visible = false
             }
 
             Button {
-                text: qsTr("确定")
+                text: qsTr("Yes")
                 Layout.fillWidth: true
                 flat: true
                 onClicked: {

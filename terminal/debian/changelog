@@ -1,3 +1,9 @@
+cute-terminal (1.0.0) UNRELEASED; urgency=medium
+
+  * automatic identification of color matching
+
+ -- Floating dream <2422586862@qq.com>  Tue, 8 Aug 2023 04:09:12 +0800
+
 cute-terminal (1.0.0.0) UNRELEASED; urgency=medium
 
   * automatic identification of color matching
@@ -8,16 +14,16 @@ cute-terminal (0.7-2) UNRELEASED; urgency=medium
 
   * fix bug
 
- -- CuteOS Packaging Team <support@cuteos.com>  Fri, 10 Jun 2022 16:29:21 +0800
+ -- CuteOS Packaging Team <cuteos@foxmail.com>  Fri, 10 Jun 2022 16:29:21 +0800
 
 cute-terminal (0.7-1) UNRELEASED; urgency=medium
 
   * Fix bugs
 
- -- weilinfox <support@cuteos.com>  Fri, 10 Jun 2022 16:21:51 +0800
+ -- weilinfox <cuteos@foxmail.com>  Fri, 10 Jun 2022 16:21:51 +0800
 
 cute-terminal (0.7) UNRELEASED; urgency=low
 
-  * Initial release (CuteOS)  <support@cuteos.com>
+  * Initial release (CuteOS)  <cuteos@foxmail.com>
 
- -- CuteOS Packaging Team <support@cuteos.com>  Mon, 27 Dec 2021 11:12:27 +0800
+ -- CuteOS Packaging Team <cuteos@foxmail.com>  Mon, 27 Dec 2021 11:12:27 +0800

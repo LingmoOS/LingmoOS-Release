@@ -1,11 +1,17 @@
+cute-kwin-plugins (1.0.0) UNRELEASED; urgency=low
+
+  * Update <cuteos@foxmail.com>
+
+   -- LingmoOS Packaging Team <cuteos@foxmail.com>  Tue, 8 Aug 2023 04:09:12 +0800
+
 cute-kwin-plugins (1.0.0.0) UNRELEASED; urgency=low
 
-  * Initial release (CuteOS)  <support@cuteos.com>
+  * Initial release (CuteOS)  <cuteos@foxmail.com>
 
-   -- LingmoOS Packaging Team <support@cuteos.com>  Wed, 19 Jul 2023 06:05:47 +0800
+   -- LingmoOS Packaging Team <cuteos@foxmail.com>  Wed, 19 Jul 2023 06:05:47 +0800
 
 cute-kwin-plugins (0.8) UNRELEASED; urgency=low
 
-  * Initial release (CuteOS)  <support@cuteos.com>
+  * Initial release (CuteOS)  <cuteos@foxmail.com>
 
-   -- CuteOS Packaging Team <support@cuteos.com>  Sat, 29 Jan 2022 03:19:02 +0800
+   -- CuteOS Packaging Team <cuteos@foxmail.com>  Sat, 29 Jan 2022 03:19:02 +0800

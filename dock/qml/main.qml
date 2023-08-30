@@ -33,8 +33,11 @@ Item {
 
         anchors.fill: parent
         radius: root.compositing && Settings.style === 0 ? windowRadius : 0
-        color: CuteUI.Theme.darkMode ? "#666666" : "#E6E6E6"
-        opacity: root.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.5 : 0.9
+        color: CuteUI.Theme.darkMode ? "#333333" : "#F2F2F2"
+        opacity: CuteUI.Theme.darkMode ? 0.5 : 0.4
+        // opacity: windowHelper.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.4 : 1
+        // color: CuteUI.Theme.darkMode ? "#666666" : "#E6E6E6"
+        // opacity: root.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.5 : 0.9
         // opacity: 0.8
         border.width: 1 / CuteUI.Units.devicePixelRatio
         border.pixelAligned: CuteUI.Units.devicePixelRatio > 1 ? false : true
@@ -114,7 +117,7 @@ Item {
             implicitHeight: isHorizontal ? root.height : root.width
             popupText: qsTr("Trash")
             enableActivateDot: false
-            iconName: trash.count === 0 ? "user-trash" : "user-trash-full-2"
+            iconName: trash.count === 0 ? "user-trash" : "user-trash-full"
             onClicked: trash.openTrash()
             onRightClicked: trashMenu.popup()
 
@@ -154,7 +157,7 @@ Item {
                 MenuItem {
                     text: qsTr("Empty Trash")
                     onTriggered: trash.emptyTrash()
-                    visible: trash.count !== 0
+                    // visible: trash.count !== 0
                 }
             }
         }

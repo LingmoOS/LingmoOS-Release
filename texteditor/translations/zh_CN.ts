@@ -5,8 +5,8 @@
     <name>main</name>
     <message>
         <location filename="../qml/main.qml" line="20"/>
-        <source>Text Editor</source>
-        <translation>CuteOS文本编辑器</translation>
+        <source>Lingmo OS Text Editor</source>
+        <translation>Lingmo OS文本编辑器</translation>
     </message>
     <message>
         <location filename="../qml/main.qml" line="30"/>
@@ -31,14 +31,14 @@
     <message>
         <location filename="../qml/main.qml" line="155"/>
         <source>All files (*)</source>
-        <translation>所有文件 (*)</translation>
+        <translation>全部类型 (*)</translation>
     </message>
     </context>
     <context>
     <name>ExitPromptDialog</name>
     <message>
         <location filename="../qml/ExitPromptDialog.qml" line="40"/>
-        <source>Document unsaved, are you sure you want to close it?</source>
+        <source>The document has not been saved. Are you sure you want to close it?</source>
         <translation>文档未保存，您确定要关闭它吗？</translation>
     </message>
     <message>
@@ -144,18 +144,18 @@
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="135"/>
-        <source>About CuteOS Text editor</source>
-        <translation>关于CuteOS文本编辑器</translation>
+        <source>About Lingmo OS Text editor</source>
+        <translation>关于Lingmo OS文本编辑器</translation>
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="143"/>
-        <source>Text Editor</source>
-        <translation>CuteOS文本编辑器</translation>
+        <source>Lingmo OS Text Editor</source>
+        <translation>Lingmo OS 文本编辑器</translation>
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="144"/>
-        <source>A text editor specifically designed for CuteOS.</source>
-        <translation>专门为CuteOS设计的文本编辑器</translation>
+        <source>A text editor specifically designed for Lingmo OS.</source>
+        <translation>专门为 Lingmo OS 设计的文本编辑器</translation>
     </message>
     <message>
         <location filename="../qml/TextEditor.qml" line="349"/>
@@ -165,7 +165,7 @@
     <message>
         <location filename="../qml/TextEditor.qml" line="351"/>
         <source>All files (*)</source>
-        <translation>所有文件 (*)</translation>
+        <translation>所有类型 (*)</translation>
     </message>
 </context>
 </TS>

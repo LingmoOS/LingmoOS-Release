@@ -65,7 +65,7 @@ CuteUI.Window {
                 spacing: CuteUI.Units.largeSpacing
 
                 Button {
-                    text: qsTr("确定")
+                    text: qsTr("Yes")
                     Layout.fillWidth: true
                     flat: true
 
@@ -77,7 +77,7 @@ CuteUI.Window {
                 }
 
                 Button {
-                    text: qsTr("取消")
+                    text: qsTr("Cancel")
                     Layout.fillWidth: true
                     onClicked: control.visible = false
                 }

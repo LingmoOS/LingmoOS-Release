@@ -1,3 +1,9 @@
+cute-dock (1.0.0) UNRELEASED; urgency=high
+
+  * LingmoOS <cuteos@foxmail.com>
+
+ -- Floating dream <cuteos@foxmail.com>  Tue, 8 Aug 2023 04:09:12 +0800
+ 
 cute-dock (1.0.0.0) UNRELEASED; urgency=high
 
   * LingmoOS <cuteos@foxmail.com>
@@ -14,4 +20,4 @@ cute-dock (0.8) UNRELEASED; urgency=low
 
   * Update 0.7
 
- -- CuteOS <support@cuteos.com>  Sat, 29 Jan 2022 03:17:39 +0800
+ -- CuteOS <cuteos@foxmail.com>  Sat, 29 Jan 2022 03:17:39 +0800

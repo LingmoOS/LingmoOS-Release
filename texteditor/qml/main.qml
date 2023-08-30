@@ -17,7 +17,7 @@ CuteUI.Window {
     minimumWidth: 300
     minimumHeight: 300
     visible: true
-    title: qsTr("CuteOS文本编辑器")
+    title: qsTr("Lingmo OS Text Editor")
 
     FileHelper {
         id: fileHelper
@@ -27,7 +27,7 @@ CuteUI.Window {
         }
 
         onUnavailable: {
-            root.showPassiveNotification(qsTr("%1 不存在").arg(path), 3000)
+            root.showPassiveNotification(qsTr("%1 doesn't exists").arg(path), 3000)
         }
     }
 
@@ -131,7 +131,7 @@ CuteUI.Window {
                 anchors.bottomMargin: CuteUI.Units.smallSpacing
 
                 Label {
-                    text: _tabView.currentItem ? qsTr("字符 %1").arg(_tabView.currentItem.characterCount)
+                    text: _tabView.currentItem ? qsTr("Characters %1").arg(_tabView.currentItem.characterCount)
                                                : ""
                 }
             }
@@ -144,15 +144,15 @@ CuteUI.Window {
     }
 
     function addTab() {
-        _tabView.addTab(textEditorComponent, { fileUrl: "", newFile: true, fileName: qsTr("无标题") })
+        _tabView.addTab(textEditorComponent, { fileUrl: "", newFile: true, fileName: qsTr("Untitled") })
         _tabView.currentItem.forceActiveFocus()
     }
 
     FileDialog {
         id: fileOpenDialog
-        title: qsTr("打开...")
+        title: qsTr("Open...")
         folder: shortcuts.home
-        nameFilters: [ qsTr("全部类型 (*)") ]
+        nameFilters: [ qsTr("All files (*)") ]
 
         selectExisting: true
         selectFolder: false

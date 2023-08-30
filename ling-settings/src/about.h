@@ -11,7 +11,7 @@ class About : public QObject
     Q_OBJECT
     Q_PROPERTY(bool isCuteOS READ isCuteOS CONSTANT)
     Q_PROPERTY(QString version READ version CONSTANT)
-    Q_PROPERTY(QString openCuteversion READ openCuteversion CONSTANT)
+    Q_PROPERTY(QString OpenLingmoVersion READ OpenLingmoVersion CONSTANT)
     Q_PROPERTY(QString debianversion READ debianversion CONSTANT)
     Q_PROPERTY(QString desktopversion READ desktopversion CONSTANT)
     Q_PROPERTY(QString buildtime READ buildtime CONSTANT)
@@ -34,7 +34,7 @@ public:
     bool isCuteOS();
 
     QString version();
-    QString openCuteversion();
+    QString OpenLingmoVersion();
     QString debianversion();
     QString desktopversion();
     QString buildtime();

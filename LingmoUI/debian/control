@@ -1,7 +1,7 @@
-Source: cuteui
+Source: lingmoui
 Section: devel
 Priority: optional
-Maintainer: CuteOS <support@cuteos.com>
+Maintainer: Lingmo OS <support@cuteos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -16,13 +16,13 @@ Build-Depends: cmake,
                qtquickcontrols2-5-dev,
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.5.0
-Homepage: https://cutefishos.com
+Standards-Version: 1.0.0
+Homepage: https://lingmo.org/
 
-Package: cuteui
+Package: lingmoui
 Architecture: any
 Depends: qml-module-qtquick-controls2,
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: CutefishOS UIKit
+Description: Lingmo OS UIKit

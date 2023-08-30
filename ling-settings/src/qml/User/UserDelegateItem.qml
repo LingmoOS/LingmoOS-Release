@@ -83,8 +83,8 @@ RoundedItem {
 
                         Layout.preferredWidth: iconSize
                         Layout.preferredHeight: iconSize
-                        sourceSize: String(source) === "image://icontheme/default-user" ? Qt.size(iconSize, iconSize) : undefined
-                        source: iconFileName ? "file:///" + iconFileName : "image://icontheme/default-user"
+                        sourceSize: String(source) === "qrc:/images/logo-rad.png" ? Qt.size(iconSize, iconSize) : undefined
+                        source: iconFileName ? "file:///" + iconFileName : "qrc:/images/logo-rad.png"
                         visible: status === Image.Ready
                         Layout.alignment: Qt.AlignVCenter
 

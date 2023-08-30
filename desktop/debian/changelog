@@ -1,3 +1,9 @@
+cute-desktop (1.0.0) UNRELEASED; urgency=high
+
+  * LingmoOS <cuteos@foxmail.com>
+
+ -- Floating dream <cuteos@foxmail.com>  Tue, 8 Aug 2023 04:09:12 +0800
+
 cute-desktop (1.0.0.0) UNRELEASED; urgency=high
 
   * LingmoOS <cuteos@foxmail.com>
@@ -18,6 +24,6 @@ cute-desktop (6.06.6) UNRELEASED; urgency=high
 
 cute-desktop (0.8-1) UNRELEASED; urgency=high
 
-  * Initial release (CuteOS)  <support@cuteos.com>
+  * Initial release (CuteOS)  <cuteos@foxmail.com>
 
- -- CuteOS Packaging Team <support@cuteos.com>  Wed, 15 Jun 2022 03:21:19 +0800
+ -- CuteOS Packaging Team <cuteos@foxmail.com>  Wed, 15 Jun 2022 03:21:19 +0800

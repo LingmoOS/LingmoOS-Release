@@ -23,7 +23,6 @@ Depends: qml-module-qtquick-controls2,
          qml-module-qtqml,
          qml-module-qtquick-window2,
          qml-module-qtquick-shapes,
-         qml-module-qtquick-dialogs,
          libcute,
          ${misc:Depends},
          ${shlibs:Depends}

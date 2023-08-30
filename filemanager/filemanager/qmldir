@@ -1,0 +1,3 @@
+module Cute.FileManager
+
+plugin cutefilemanager_qmlplugins

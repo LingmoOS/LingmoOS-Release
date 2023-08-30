@@ -1,3 +1,15 @@
+ling-settings (1.0.6) UNRELEASED; urgency=high
+
+  * Update translation <cuteos@foxmail.com>
+
+ -- Lingmo <cuteos@foxmail.com>  Fri, 25 Aug 2023 15:31:21 +0800
+
+ling-settings (1.0.0) UNRELEASED; urgency=high
+
+  * LingmoOS <cuteos@foxmail.com>
+
+ -- Floating dream <cuteos@foxmail.com>  Tue, 8 Aug 2023 04:09:12 +0800
+
 ling-settings (1.0.0.0) UNRELEASED; urgency=high
 
   * LingmoOS <cuteos@foxmail.com>
@@ -24,7 +36,7 @@ cute-settings (6.06.6) UNRELEASED; urgency=high
 
 cute-settings (23.02.8) UNRELEASED; urgency=high
 
-  * Update <support@cuteos.com>
+  * Update <cuteos@foxmail.com>
 
  -- Floating dream <2422586862@qq.com>  Tue, 14 Feb 2023 21:06:52 +0800
 
@@ -32,34 +44,34 @@ cute-settings (0.9) unstable; urgency=high
 
   * Functional update to 0.9
 
- -- weilinfox <support@cuteos.com>  Mon, 20 Jun 2022 11:19:00 +0800
+ -- weilinfox <cuteos@foxmail.com>  Mon, 20 Jun 2022 11:19:00 +0800
 
 cute-settings (0.8-2) UNRELEASED; urgency=medium
 
   * Adapt Accessibility
 
- -- weilinfox <support@cuteos.com>  Fri, 11 Jun 2022 16:20:21 +0800
+ -- weilinfox <cuteos@foxmail.com>  Fri, 11 Jun 2022 16:20:21 +0800
 
 cute-settings (0.8-1) UNRELEASED; urgency=medium
 
   * Adapt dark theme
 
- -- weilinfox <support@cuteos.com>  Fri, 10 Jun 2022 16:20:21 +0800
+ -- weilinfox <cuteos@foxmail.com>  Fri, 10 Jun 2022 16:20:21 +0800
 
 cute-settings (0.8) UNRELEASED; urgency=high
 
-  * Update <support@cuteos.com>
+  * Update <cuteos@foxmail.com>
 
- -- CuteOS <support@cuteos.com>  Sat, 29 Jan 2022 03:24:55 +0800
+ -- CuteOS <cuteos@foxmail.com>  Sat, 29 Jan 2022 03:24:55 +0800
 
 cute-settings (0.5.1) UNRELEASED; urgency=high
 
-  * Update <support@cuteos.com>
+  * Update <cuteos@foxmail.com>
 
- -- CuteOS <support@cuteos.com>  Sat, 09 Oct 2021 11:01:00 +0800
+ -- CuteOS <cuteos@foxmail.com>  Sat, 09 Oct 2021 11:01:00 +0800
 
 cute-settings (0.5) UNRELEASED; urgency=high
 
-  * Initial release CuteOS <support@cuteos.com>
+  * Initial release CuteOS <cuteos@foxmail.com>
 
- -- CuteOS <support@cuteos.com>  Thu, 16 Sep 2021 03:52:45 +0800
+ -- CuteOS <cuteos@foxmail.com>  Thu, 16 Sep 2021 03:52:45 +0800

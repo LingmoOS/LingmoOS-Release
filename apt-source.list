@@ -1,0 +1,11 @@
+# +===========================+
+# | Lingmo OS Software Source |
+# +===========================+
+# +
+# If packages.apt cannot be accessed, please use [mirror.packages.apt]
+# +==========Official server==========+
+# deb http://mirror.packages.apt.lingmo.org origin main
+# +
+# +==========GitHub==========+
+deb http://packages.apt.lingmo.org origin main
+# Lingmo OS Team

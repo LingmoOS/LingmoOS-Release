@@ -7,6 +7,7 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
 import QtGraphicalEffects 1.0
+import Qt.labs.platform 1.0
 
 import Cute.FileManager 1.0 as FM
 import CuteUI 1.0 as CuteUI

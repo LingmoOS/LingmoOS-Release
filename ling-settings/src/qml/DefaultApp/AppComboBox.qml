@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2021 - 2022 CuteOS Team.
  *
- * Author:     Kate Leet <support@cuteos.com>
+ * Author:     Kate Leet <cuteos@foxmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

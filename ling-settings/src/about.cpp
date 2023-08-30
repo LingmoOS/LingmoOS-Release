@@ -75,7 +75,7 @@ QString About::version()
     return settings.value("Version").toString();
 }
 
-QString About::openCuteversion()
+QString About::OpenLingmoVersion()
 {
     QSettings settings("/etc/OpenLingmo/OpenLingmo_version",QSettings::IniFormat);
     return settings.value("Version").toString();
@@ -204,7 +204,7 @@ QString About::cpuInfo()
 
 void About::openUpdator()
 {
-    QProcess::startDetached("cute-terminal", QStringList());
+    QProcess::startDetached("ling-updator", QStringList());
 }
 
 qlonglong About::calculateTotalRam() const

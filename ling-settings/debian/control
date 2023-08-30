@@ -22,7 +22,7 @@ Build-Depends: cmake,
                qttools5-dev,
                qttools5-dev-tools,
                libqapt-dev
-Standards-Version: 1.0.0.0
+Standards-Version: 1.0.6
 Homepage: https://lingmo.org
 
 Package: ling-settings

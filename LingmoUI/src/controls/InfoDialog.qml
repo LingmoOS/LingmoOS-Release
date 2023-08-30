@@ -138,6 +138,10 @@ CuteUI.Window {
         RowLayout {
             spacing: CuteUI.Units.largeSpacing
 
+            Item {
+                Layout.fillWidth: true
+            }
+
             // Button {
             //     text: qsTr("Exit")
             //     Layout.fillWidth: true

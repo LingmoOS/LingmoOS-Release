@@ -17,7 +17,7 @@ Item {
     LayoutMirroring.childrenInherit: true
 
     property bool darkMode: false
-    property color textColor: rootItem.darkMode ? "#FFFFFF" : "#000000";
+    property color textColor: CuteUI.Theme.darkMode ? "#FFFFFF" : "#000000";
     property var fontSize: rootItem.height ? rootItem.height / 3 : 1
 
     property var timeFormat: StatusBar.twentyFourTime ? "HH:mm" : "h:mm ap"
@@ -26,46 +26,46 @@ Item {
         timeTimer.restart()
     }
 
-    System.Wallpaper {
-        id: sysWallpaper
+    // System.Wallpaper {
+    //     id: sysWallpaper
 
-        function reload() {
-            if (sysWallpaper.type === 0)
-                bgHelper.setBackgound(sysWallpaper.path)
-            else
-                bgHelper.setColor(sysWallpaper.color)
-        }
+    //     function reload() {
+    //         if (sysWallpaper.type === 0)
+    //             bgHelper.setBackgound(sysWallpaper.path)
+    //         else
+    //             bgHelper.setColor(sysWallpaper.color)
+    //     }
 
-        Component.onCompleted: sysWallpaper.reload()
+    //     Component.onCompleted: sysWallpaper.reload()
 
-        onTypeChanged: sysWallpaper.reload()
-        onColorChanged: sysWallpaper.reload()
-        onPathChanged: sysWallpaper.reload()
-    }
+    //     onTypeChanged: sysWallpaper.reload()
+    //     onColorChanged: sysWallpaper.reload()
+    //     onPathChanged: sysWallpaper.reload()
+    // }
 
-    BackgroundHelper {
-        id: bgHelper
+    // BackgroundHelper {
+    //     id: bgHelper
 
-        onNewColor: {
-            background.color = color
-            rootItem.darkMode = darkMode
-        }
-    }
+    //     onNewColor: {
+    //         background.color = color
+    //         CuteUI.Theme.darkMode = darkMode
+    //     }
+    // }
 
     Rectangle {
         id: background
         anchors.fill: parent
-        // opacity: 0.6
+        opacity: 0.6
 
        color: CuteUI.Theme.darkMode ? "#4D4D4D" : "#FFFFFF"
-       opacity: windowHelper.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.7 : 1.0
+       //opacity: windowHelper.compositing ? CuteUI.Theme.darkMode ? 0.5 : 0.7 : 1.0
 
-//        Behavior on color {
-//            ColorAnimation {
-//                duration: 100
-//                easing.type: Easing.Linear
-//            }
-//        }
+       Behavior on color {
+           ColorAnimation {
+               duration: 100
+               easing.type: Easing.Linear
+           }
+       }
     }
 
     CuteUI.WindowHelper {
@@ -268,7 +268,7 @@ Item {
                 Image {
                     id: volumeIcon
                     visible: controlCenter.item.defaultSink
-                    source: "qrc:/images/" + (rootItem.darkMode ? "dark/" : "light/") + controlCenter.item.volumeIconName + ".svg"
+                    source: "qrc:/images/" + (CuteUI.Theme.darkMode ? "dark/" : "light/") + controlCenter.item.volumeIconName + ".svg"
                     width: rootItem.iconSize
                     height: width
                     sourceSize: Qt.size(width, height)
@@ -283,7 +283,7 @@ Item {
                     width: rootItem.iconSize
                     height: width
                     sourceSize: Qt.size(width, height)
-                    source: activeConnection.wirelessIcon ? "qrc:/images/" + (rootItem.darkMode ? "dark/" : "light/") + activeConnection.wirelessIcon + ".svg" : ""
+                    source: activeConnection.wirelessIcon ? "qrc:/images/" + (CuteUI.Theme.darkMode ? "dark/" : "light/") + activeConnection.wirelessIcon + ".svg" : ""
                     asynchronous: true
                     Layout.alignment: Qt.AlignCenter
                     visible: enabledConnections.wirelessHwEnabled &&
@@ -303,7 +303,7 @@ Item {
                         height: rootItem.iconSize
                         width: height + 6
                         sourceSize: Qt.size(width, height)
-                        source: "qrc:/images/" + (rootItem.darkMode ? "dark/" : "light/") + battery.iconSource
+                        source: "qrc:/images/" + (CuteUI.Theme.darkMode ? "dark/" : "light/") + battery.iconSource
                         Layout.alignment: Qt.AlignCenter
                         antialiasing: true
                         smooth: false
@@ -339,7 +339,7 @@ Item {
                 width: rootItem.iconSize
                 height: width
                 sourceSize: Qt.size(width, height)
-                source: "qrc:/images/" + (rootItem.darkMode ? "dark/" : "light/") + "system-shutdown-symbolic.svg"
+                source: "qrc:/images/" + (CuteUI.Theme.darkMode ? "dark/" : "light/") + "system-shutdown-symbolic.svg"
                 asynchronous: true
                 antialiasing: true
                 smooth: false
@@ -362,16 +362,16 @@ Item {
                 id: _dateTimeLayout
                 anchors.fill: parent
 
-//                Image {
-//                    width: rootItem.iconSize
-//                    height: width
-//                    sourceSize: Qt.size(width, height)
-//                    source: "qrc:/images/" + (rootItem.darkMode ? "dark/" : "light/") + "notification-symbolic.svg"
-//                    asynchronous: true
-//                    Layout.alignment: Qt.AlignCenter
-//                    antialiasing: true
-//                    smooth: false
-//                }
+               Image {
+                   width: rootItem.iconSize
+                   height: width
+                   sourceSize: Qt.size(width, height)
+                   source: "qrc:/images/" + (CuteUI.Theme.darkMode ? "dark/" : "light/") + "notification-symbolic.svg"
+                   asynchronous: true
+                   Layout.alignment: Qt.AlignCenter
+                   antialiasing: true
+                   smooth: false
+               }
 
                 Label {
                     id: timeLabel

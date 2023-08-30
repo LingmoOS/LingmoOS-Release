@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2021 Cute Technology Co., Ltd.
+ * Copyright (C) 2023 Lingmo OS Team
  *
- * Author:     TsukuyomiToki <huangzimocp@126.com>
+ * Author:     Lingmo OS Team <cuteos@foxmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -110,16 +110,21 @@ int main(int argc, char *argv[])
     else
         newTab(root);
 
+    /** 加载翻译 */
     QLocale locale;
-    QString qmFilePath = QString("zh_CN.qm").arg("/usr/share/cute-texteditor/translations/").arg(locale.name());
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cute-texteditor/translations/").arg(locale.name());
     if (QFile::exists(qmFilePath)) {
-        QTranslator *translator = new QTranslator(QGuiApplication::instance());
+        QTranslator *translator = new QTranslator(QApplication::instance());
         if (translator->load(qmFilePath)) {
-            QGuiApplication::installTranslator(translator);
+            QApplication::installTranslator(translator);
         } else {
             translator->deleteLater();
         }
     }
+
+    /** 导入模块 */
+    engine.addImportPath(QStringLiteral("qrc:/"));
+    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
 
     return app.exec();
 }

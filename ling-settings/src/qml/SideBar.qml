@@ -69,15 +69,6 @@ Item {
             category: qsTr("Network and connection")
         }
 
-//        ListElement {
-//            title: qsTr("Hotspot")
-//            name: "hotspot"
-//            page: "qrc:/qml/Hotspot/Main.qml"
-//            iconSource: "hotspot.svg"
-//            iconColor: "#0067FF"
-//            category: qsTr("Network and connection")
-//        }
-
         ListElement {
             title: qsTr("Bluetooth")
             name: "bluetooth"
@@ -86,15 +77,6 @@ Item {
             iconColor: "#2AC9E6"
             category: qsTr("Network and connection")
         }
-
-//        ListElement {
-//            title: qsTr("VPN")
-//            name: "vpn"
-//            page: "qrc:/qml/VPN/Main.qml"
-//            iconSource: "bluetooth.svg"
-//            iconColor: "#0067FF"
-//            category: qsTr("Network and connection")
-//        }
 
         ListElement {
             title: qsTr("Proxy")
@@ -186,15 +168,6 @@ Item {
             category: qsTr("System")
         }
 
-//        ListElement {
-//            title: qsTr("Application")
-//            name: "application"
-//            page: "qrc:/qml/Application/Main.qml"
-//            iconSource: "accounts.svg"
-//            iconColor: "#DA7C43"
-//            category: qsTr("System")
-//        }
-
         ListElement {
             title: qsTr("Date & Time")
             name: "datetime"
@@ -249,23 +222,6 @@ Item {
             category: qsTr("System")
         }
 
-        // ListElement {
-        //     title: qsTr("Update")
-        //     name: "Update"
-        //     page: "qrc:/qml/Dev/Main.qml"
-        //     iconSource: "about.svg"
-        //     iconColor: "#FF56A5"
-        //     category: qsTr("System")
-        // }
-        // ListElement {
-        //     title: qsTr("About Dev")
-        //     name: "Develop"
-        //     page: "qrc:/qml/Dev/Main.qml"
-        //     iconSource: "about.svg"
-        //     iconColor: "#FF6BB7"
-        //     category: qsTr("System")
-        // }
-
         ListElement {
             title: qsTr("About LingmoOS")
             name: "about"
@@ -274,15 +230,6 @@ Item {
             iconColor: "#1ABAFF"
             category: qsTr("System")
         }
-
-        // ListElement {
-        //     title: qsTr("Update")
-        //     name: "update"
-        //     page: "qrc:/qml/Update/Main.qml"
-        //     iconSource: "about.svg"
-        //     iconColor: "#FF6BCF"
-        //     category: qsTr("System")
-        // }
     }
 
     ColumnLayout {
